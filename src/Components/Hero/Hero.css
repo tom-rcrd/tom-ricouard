@@ -1,0 +1,44 @@
+.hero {
+    padding: 1.2rem 1.7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    font-size: 0.9rem;
+    gap: 15px;
+}
+
+.hero a{
+    color: #d3D3d3;
+    transition: color 0.3s ease-out;
+}
+
+.hero a:hover {
+    color: #191919;
+}
+
+.images {
+    background-color: red;
+    width: 100%;
+
+}
+
+.hero-index {
+    overflow: hidden;
+    font-size: 0.9rem;
+    
+}
+
+
+.projet a{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projet:hover{
+ background-color: #d3d3d3;
+}
+
+
+.type {
+    text-align: right;
+}

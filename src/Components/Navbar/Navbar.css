@@ -1,0 +1,44 @@
+.grid-row {
+    align-items: flex-start;
+}
+
+.navbar {
+  display:grid;
+    overflow: hidden;
+    padding: 1.2rem 1.7rem 0;
+    grid-template-columns: 2fr 2fr;
+    font-size: 0.9rem;
+  gap: 15px;
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+  }
+
+
+  .navbar a{
+    color: #d3d3d3;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+    
+  }
+  
+  .navbar a:hover {
+    color: #191919;
+  }
+
+  .nav-item-title a{
+    color: #191919;
+  }
+  .nav-item-title a:hover{
+    color: #d3D3d3;
+  }
+
+
+  .nav-item-contact {
+    text-align: right;
+  }
+  
+  
