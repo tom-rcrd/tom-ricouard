@@ -5,6 +5,7 @@
     overflow: hidden;
     font-size: 0.9rem;
     gap: 15px;
+  
 }
 
 .hero a{
@@ -23,10 +24,11 @@
 }
 
 .hero-index {
-    overflow: hidden;
+ 
     font-size: 0.9rem;
-    
-}
+    }
+
+
 
 
 .projet a{
@@ -38,7 +40,24 @@
  background-color: #d3d3d3;
 }
 
-
 .type {
     text-align: right;
 }
+
+
+.description a{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hero-projets {
+    padding-bottom: 10%;
+    height: 100vh;
+    overflow: scroll;
+    scroll-behavior: smooth;
+   
+  }
+  
+  .hero-projets::-webkit-scrollbar {
+    display: none;
+  }
