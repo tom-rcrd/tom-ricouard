@@ -1,16 +1,24 @@
 import './Hero.css'  
 import React, { useEffect, useRef } from 'react';
-import Slider from '../Slider/Slider';
-
-
+import Slider from '../Slider/Slider'; 
 function Hero() {
    
-
   return (
+
+  
+
+
     <div class="hero">
         <section class="hero-index">
             <div class="container">
-
+                 <div class="projet">
+              
+                 <a href="#projet1">
+                    <li class="index-item">2024</li>
+                    <li class="index-item">Höfn Studio</li>
+                    <li class="index-item type">Webdesign / Développement web</li>
+                    </a>
+                 </div>
                  <div class="projet"><a href="#projet2">
                     <li class="index-item">2023</li>
                     <li class="index-item">Geminii</li>
@@ -34,6 +42,7 @@ function Hero() {
 
         <section class="hero-projets">
 
+         
 
         <div id="projet1">
          
@@ -81,7 +90,6 @@ function Hero() {
             </div>
         </div>
 
-
         <div id="projet5">
          <Slider/>
             <div class="projet">
@@ -104,9 +112,7 @@ function Hero() {
                </a>
             </div>
         </div>
-        
-
-        
+              
         </section>
 
 

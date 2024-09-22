@@ -12,7 +12,7 @@ const Navbar = () => {
       <li className="nav-item"><a href="#">Projets</a></li>
     <li className="nav-item"><a href="#">Infos</a></li></ul>
     </ul>
-    <li className="nav-item-contact"><a href="#">Contact ↗</a></li>
+    <li className="nav-item-contact"><a href="mailto:contact@tomricouard.com">Contact ↗</a></li>
   </nav>
     </header>
 
