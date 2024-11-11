@@ -5,10 +5,13 @@
 .navbar {
   display:grid;
     overflow: hidden;
-    padding: 1.2rem 1.7rem 0;
+    padding: 1rem 1.7rem;
     grid-template-columns: 2fr 2fr;
     font-size: 0.9rem;
-  gap: 15px;
+  gap: 25px;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
   }
 
   .navbar ul {
@@ -17,26 +20,32 @@
     gap: 1.2rem;
   }
 
+ 
+
 
   .navbar a{
-    color: #d3d3d3;
+    color: #b4b4b4;
     text-decoration: none;
     transition: color 0.3s ease-out;
     
   }
   
-  .navbar a:hover {
-    color: #191919;
-  }
-
+  
   .nav-item-title a{
     color: #191919;
   }
   .nav-item-title a:hover{
-    color: #d3D3d3;
+    color: #b4b4b4;
   }
 
 
+  .navbar .nav-item a.active {
+    color:#191919; /* Couleur pour la page active */
+  }
+  
+
+
+  
   .nav-item-contact {
     text-align: right;
   }

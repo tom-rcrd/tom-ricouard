@@ -1,0 +1,127 @@
+
+
+.hero-infos {
+    padding: 3rem 1.7rem 1rem 1.7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    font-size: 0.9rem;
+    gap: 25px;
+    height:100vh;
+}
+
+a{
+    color: #b4b4b4;
+    transition: color 0.3s ease-out;
+}
+
+p:hover ,a:hover {
+    color: #191919;
+}
+
+.hero-infos p {
+    margin-bottom: 15px ;
+    text-justify: distribute;
+  /*  text-indent: 15px; */
+}
+
+
+
+.hero-index-infos {
+ 
+    font-size: 0.9rem;
+    display: grid;
+    min-height: 100%;
+    grid-template-rows: 1fr;
+
+    }
+
+
+.container-infos {
+    
+    flex: 1 0 auto;
+}
+
+
+
+.infos-left {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.emoji {
+    font-size: 30px;
+}
+
+.infos-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+
+}
+
+.type {
+    text-align: right;
+}
+
+
+.description-infos a{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.description-infos {
+    font-size: 20px;
+}
+
+.description-infos h1 {
+    margin-bottom: 15px;
+}
+
+
+.hero-projets-infos {
+    height: 100%;
+      overflow: scroll;
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-rows: 1fr;
+
+   
+  }
+  
+  .hero-projets-infos::-webkit-scrollbar {
+    display: none;
+  }
+
+  .infos-right p {
+    margin:0;
+  }
+
+  .infos-span {
+    font-size: 13px;
+    color: #b4b4b4;
+  }
+
+  .services {
+       font-size: 13px;
+    color: #303030;
+  }
+
+  a:hover .follow-img {
+    opacity: 1;
+  }
+  
+  .follow-img {
+    opacity: 0;
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    box-sizing: border-box;
+    transition: ease .2s;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    object-fit: cover;
+    pointer-events: none;
+  }

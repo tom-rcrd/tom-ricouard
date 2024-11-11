@@ -1,0 +1,14 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+
+.footer .type {
+
+    color: #b4b4b4;
+}
+
