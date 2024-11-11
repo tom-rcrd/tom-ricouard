@@ -125,3 +125,17 @@ p:hover ,a:hover {
     object-fit: cover;
     pointer-events: none;
   }
+
+
+
+/* Styles pour tablette (entre 768px et 1024px) */
+@media (max-width: 1024px) {
+  .hero-infos {
+    display: block;
+  }
+}
+
+/* Styles pour smartphone (en dessous de 768px) */
+@media (max-width: 768px) {
+
+}
