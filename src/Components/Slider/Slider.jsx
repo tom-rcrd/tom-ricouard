@@ -58,14 +58,16 @@ function Slider1() {
             infiniteLoop={true}
             animationHandler="fade"
             swipeable={false}
-        >         <div className="test">
+        >              
+        
+        <div className="test">
         <div className="test-images">
-            <div className="videotest">
-                <CarouselVideo src={c1} />
-            </div>
+          <div className="videotest">
+            <CarouselVideo src={c1} />
+          </div>
         </div>
-        <div className="legend"><span>2/2</span> Vidéo du projet</div>
-    </div>
+        <div className="legend"><span>1/1</span> Logo sur tee-shirt</div>
+      </div>
 
            <div className="test">
                 <div className="test-images">

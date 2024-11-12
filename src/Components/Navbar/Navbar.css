@@ -2,8 +2,7 @@
     align-items: flex-start;
 }
 
-.navbar {
-  display:grid;
+.navbar-desktop {
     overflow: hidden;
     padding: 1rem 1.7rem;
     grid-template-columns: 2fr 2fr;
@@ -14,16 +13,32 @@
   background-color: rgb(245, 245, 245);
   }
 
-  .navbar ul {
+  .navbar-mobile {
+    overflow: hidden;
+    padding: 1rem 1.7rem;
+    grid-template-columns: 2fr 2fr;
+    font-size: 0.9rem;
+  gap: 25px;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  }
+
+
+  .navbar-desktop ul {
     display: flex;
     justify-content: space-between;
     gap: 1.2rem;
   }
 
- 
+  .navbar-mobile ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+  }
 
 
-  .navbar a{
+  .navbar-desktop a{
     color: #b4b4b4;
     text-decoration: none;
     transition: color 0.3s ease-out;
@@ -39,15 +54,47 @@
   }
 
 
-  .navbar .nav-item a.active {
+  .navbar-desktop .nav-item a.active {
     color:#191919; /* Couleur pour la page active */
   }
   
-
-
+  .navbar-mobile .nav-item a.active {
+    color:#191919; /* Couleur pour la page active */
+  }
   
   .nav-item-contact {
     text-align: right;
   }
   
+
+
+  .navbar-desktop,
+  .navbar-mobile {
+    display: none;
+  }
+  
+
+  @media (min-width: 1024px) {
+    .navbar-desktop {
+      display: grid;
+      justify-content: space-between;
+      align-items: center;
+    }
+    /* Reste des styles pour la version desktop */
+  }
+  
+  /* Styles pour Mobile */
+  @media (max-width: 1023px) {
+    .navbar-mobile {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    /* Reste des styles pour la version mobile */
+  }
+
+  @media (max-width: 1024px) {
+
+  }
   
