@@ -1,27 +1,45 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Optimisation SEO : Déclaration de la langue -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Optimisation SEO et accessibilité : Affichage de la page par la largeur de l'appareil avec un niveau de zoom initial de 1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Titre de la page pour le SEO -->
     <title>Tom Ricouard - Designer Graphique</title>
-    <meta name="description" content="I am a multidisciplinary graphic designer who mainly work within web and editorial design.">
-<meta property="og:title" content="Tom Ricouard - Designer Graphique">
-<meta property="og:description" content="Add description here">
-<meta property="og:image" content="https://your-website.com/og-image.png">
-<meta property="og:url" content="https://your-website.com">
-    <link
-    rel="preload"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-    as="font"
-    type="font/woff2"
-    crossorigin="anonymous"
-  />
-
-
+    
+    <!-- Description SEO -->
+    <meta name="description" content="Tom Ricouard est un designer graphique multidisciplinaire spécialisé dans le design web et éditorial.">
+    
+    <!-- Balises Open Graph pour les réseaux sociaux -->
+    <meta property="og:title" content="Tom Ricouard - Designer Graphique">
+    <meta property="og:description" content="Tom Ricouard, designer graphique multidisciplinaire travaillant dans le design web et éditorial.">
+    <meta property="og:image" content="https://your-website.com/og-image.png">
+    <meta property="og:url" content="https://tomricouard.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Balise Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tom Ricouard - Designer Graphique">
+    <meta name="twitter:description" content="Tom Ricouard, designer graphique multidisciplinaire travaillant dans le design web et éditorial.">
+    <meta name="twitter:image" content="https://your-website.com/og-image.png">
+    
+    <!-- Balise favicon -->
+    <link rel="icon" href="/vite.svg" type="image/svg+xml" sizes="any">
+    
+    <!-- Mots-clés SEO -->
+    <meta name="keywords" content="Tom Ricouard, Ricouard, graphisme, design, design graphique, graphic design, Apix, Le Havre, graphisme Le Havre, design graphique Le Havre">
+    
+    <!-- Preload pour améliorer le chargement des ressources critiques -->
+    <link rel="preload" href="/src/main.jsx" as="script">
   </head>
   <body>
+    <!-- Div racine pour React -->
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Chargement du script React en module -->
+    <script type="module" src="/src/main.jsx" defer></script>
   </body>
 </html>

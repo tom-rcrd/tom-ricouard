@@ -7,8 +7,8 @@
     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 
     # Redirection vers une URL avec 'www' (facultatif)
-    RewriteCond %{HTTP_HOST} ^example.com [NC]
-    RewriteRule ^(.*)$ https://www.example.com/$1 [L,R=301,NE]
+    RewriteCond %{HTTP_HOST} ^www.tomricouard.com [NC]
+    RewriteRule ^(.*)$ https://www.tomricouard.com/$1 [L,R=301,NE]
 </IfModule>
 
 # 2. Empêcher lister les fichiers dans les répertoires sans index
