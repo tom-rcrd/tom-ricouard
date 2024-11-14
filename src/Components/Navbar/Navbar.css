@@ -24,6 +24,10 @@
   background-color: rgb(245, 245, 245);
   }
 
+  .nav-item-right {
+    display: flex;
+    gap: 1.2rem;
+  }
 
   .navbar-desktop ul {
     display: flex;

@@ -126,16 +126,40 @@ p:hover ,a:hover {
     pointer-events: none;
   }
 
+.divider {
+  overflow: hidden;
+}
 
+hr {
+  background: #303030;
+}
 
 /* Styles pour tablette (entre 768px et 1024px) */
 @media (max-width: 1024px) {
   .hero-infos {
     display: block;
+overflow: scroll;
   }
+
+  .infos-right {
+    grid-template-columns: 1fr;
+  }
+
+.divider {
+  overflow: auto;
+  width: 100%;
+  height: 1px;
+  background:  #303030;
+  margin: 20px 0;
+}
+
+.hero-index-infos {
+  overflow: visible;
+}
+
 }
 
 /* Styles pour smartphone (en dessous de 768px) */
 @media (max-width: 768px) {
-
+ 
 }

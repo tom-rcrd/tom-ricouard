@@ -22,30 +22,30 @@ import Slider17 from '../Slider/Slider17';
 import Slider18 from '../Slider/Slider18'; 
 import Slider19 from '../Slider/Slider19'; 
 import Footer from '../Footer/Footer';
-import projectDescriptions from './projectDescriptions.json';
+import ProjectDescriptions from './ProjectDescriptions.json';
 
 const projectData = [
-   { id: 'projet19', year: '2020', title: 'L\'Etage', type: 'Direction artistique / Print / Visuels', description: projectDescriptions.projet19, Slider: Slider19 },
-   { id: 'projet18', year: '2024', title: 'Lite', type: 'Logotype', description: projectDescriptions.projet18, Slider: Slider18 },
-   { id: 'projet17', year: '2024', title: 'Höfn Studio', type: 'Webdesign / Développement web',description: projectDescriptions.projet17, Slider: Slider17 },
-   { id: 'projet15', year: '2023', title: 'Lite - Hargneux', type: 'Montage / Effets visuels',description: projectDescriptions.projet15, Slider: Slider15 },
-   { id: 'projet14', year: '2023', title: 'APIX - Fête de la musique', type: 'Direction artistique',description: projectDescriptions.projet14, Slider: Slider14 },
-   { id: 'projet13', year: '2022', title: 'Geminii', type: 'Vidéo',description: projectDescriptions.projet13, Slider: Slider13 },
-   { id: 'projet16', year: '2022', title: 'APIX - Diving', type: 'Cover',description: <projectDescriptions className="projet16"></projectDescriptions>, Slider: Slider16 },
-   { id: 'projet12', year: '2022', title: 'Lite - Lite Tape vol.1', type: 'Visuel',description: projectDescriptions.projet12, Slider: Slider12 },
-   { id: 'projet11', year: '2022', title: 'APIX', type: 'Visuels / Direction Artistique',description: projectDescriptions.projet11, Slider: Slider11 },
-   { id: 'projet10b', year: '2022', title: 'Lite - Poche', type: 'Visuel',description: projectDescriptions.projet10b, Slider: Slider10b },
-   { id: 'projet10', year: '2021', title: 'Jackson MNR', type: 'Développement web',description: projectDescriptions.projet10, Slider: Slider10 },
-   { id: 'projet95', year: '2021', title: 'Kartoon - Clair Obscur', type: 'Custom type / Cover',description: projectDescriptions.projet95, Slider: Slider95 },
-   { id: 'projet9', year: '2021', title: 'Après la marche', type: 'Édition / Photo',description: projectDescriptions.projet9, Slider: Slider9 },
-   { id: 'projet8', year: '2020', title: 'Studio Carré', type: 'Logotype',description: projectDescriptions.projet8, Slider: Slider8 },
-   { id: 'projet7', year: '2020', title: 'Kartoon', type: 'Effets vidéos',description: projectDescriptions.projet7, Slider: Slider7 },
-   { id: 'projet6', year: '2020', title: 'Chicago', type: 'Installation / Édition / Print',description: projectDescriptions.projet6, Slider: Slider6 },
-   { id: 'projet5', year: '2020', title: 'Mémoire DNSEP', type: 'Édition',description: projectDescriptions.projet5, Slider: Slider5 },
-   { id: 'projet4', year: '2020', title: 'Esthétique des écrans', type: 'Édition',description: projectDescriptions.projet4, Slider: Slider4 },
-   { id: 'projet3', year: '2020', title: 'Module', type: 'Installation / Édition / Affiches',description: projectDescriptions.projet3, Slider: Slider3 },
-   { id: 'projet2', year: '2019', title: 'Intro - Béton', type: 'Motion design / Print / Photographie',description: projectDescriptions.projet2, Slider: Slider2 },
-   { id: 'projet1', year: '2018', title: 'Une Saison Graphique', type: 'Webdesign',description: projectDescriptions.projet1, Slider: Slider },
+   { id: 'projet19', year: '2020', title: 'L\'Etage', type: 'Direction artistique / Print / Visuels',  description: ProjectDescriptions.projet19, Slider: Slider19 },
+   { id: 'projet18', year: '2024', title: 'Lite', type: 'Logotype', description: ProjectDescriptions.projet18, Slider: Slider18 },
+   { id: 'projet17', year: '2024', title: 'Höfn Studio', type: 'Webdesign / Développement web',description: ProjectDescriptions.projet17, Slider: Slider17 },
+   { id: 'projet15', year: '2023', title: 'Lite - Hargneux', type: 'Montage / Effets visuels',description: ProjectDescriptions.projet15, Slider: Slider15 },
+   { id: 'projet14', year: '2023', title: 'APIX - Fête de la musique', type: 'Direction artistique',description: ProjectDescriptions.projet14, Slider: Slider14 },
+   { id: 'projet13', year: '2022', title: 'Geminii', type: 'Vidéo',description: ProjectDescriptions.projet13, Slider: Slider13 },
+   { id: 'projet16', year: '2022', title: 'APIX - Diving', type: 'Cover',description: ProjectDescriptions.projet14, Slider: Slider16 },
+   { id: 'projet12', year: '2022', title: 'Lite - Lite Tape vol.1', type: 'Visuel',description: ProjectDescriptions.projet12, Slider: Slider12 },
+   { id: 'projet11', year: '2022', title: 'APIX', type: 'Visuels / Direction Artistique',description: ProjectDescriptions.projet11, Slider: Slider11 },
+   { id: 'projet10b', year: '2022', title: 'Lite - Poche', type: 'Visuel',description: ProjectDescriptions.projet10b, Slider: Slider10b },
+   { id: 'projet10', year: '2021', title: 'Jackson MNR', type: 'Développement web',description: ProjectDescriptions.projet10, Slider: Slider10 },
+   { id: 'projet95', year: '2021', title: 'Kartoon - Clair Obscur', type: 'Custom type / Cover',description: ProjectDescriptions.projet95, Slider: Slider95 },
+   { id: 'projet9', year: '2021', title: 'Après la marche', type: 'Édition / Photo',description: ProjectDescriptions.projet9, Slider: Slider9 },
+   { id: 'projet8', year: '2020', title: 'Studio Carré', type: 'Logotype',description: ProjectDescriptions.projet8, Slider: Slider8 },
+   { id: 'projet7', year: '2020', title: 'Kartoon', type: 'Effets vidéos',description: ProjectDescriptions.projet7, Slider: Slider7 },
+   { id: 'projet6', year: '2020', title: 'Chicago', type: 'Installation / Édition / Print',description: ProjectDescriptions.projet6, Slider: Slider6 },
+   { id: 'projet5', year: '2020', title: 'Mémoire DNSEP', type: 'Édition',description: ProjectDescriptions.projet5, Slider: Slider5 },
+   { id: 'projet4', year: '2020', title: 'Esthétique des écrans', type: 'Édition',description: ProjectDescriptions.projet4, Slider: Slider4 },
+   { id: 'projet3', year: '2020', title: 'Module', type: 'Installation / Édition / Affiches',description: ProjectDescriptions.projet3, Slider: Slider3 },
+   { id: 'projet2', year: '2019', title: 'Intro - Béton', type: 'Motion design / Print / Photographie',description: ProjectDescriptions.projet2, Slider: Slider2 },
+   { id: 'projet1', year: '2018', title: 'Une Saison Graphique', type: 'Webdesign',description: ProjectDescriptions.projet1, Slider: Slider },
 ];
 
 const Project = ({ project, selectedProjet, scrollToProject }) => {
@@ -144,7 +144,7 @@ function Hero() {
             <div key={project.id} id={project.id}>
               <project.Slider />
               <div className="projet" onClick={() => toggleDescriptionVisibility(project.id)}>
-                <a href={`#${project.id}`}>
+                <a>
                   <li className="index-item">{project.year}</li>
                   <li className="index-item">{project.title}</li>
                   <li className="index-item type">{project.type}</li>

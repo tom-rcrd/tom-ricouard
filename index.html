@@ -2,20 +2,21 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <!-- Optimisation SEO : Déclaration de la langue -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Optimisation SEO et accessibilité : Affichage de la page par la largeur de l'appareil avec un niveau de zoom initial de 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <!-- Titre de la page pour le SEO -->
-    <title>Tom Ricouard - Designer Graphique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Description SEO -->
-    <meta name="description" content="Tom Ricouard est un designer graphique multidisciplinaire spécialisé dans le design web et éditorial.">
+    <title>Tom Ricouard - Designer Graphique</title>
+    <meta name="description" content="Designer graphique & Directeur artistique indépendant basé au Havre, 
+spécialisé en design numérique et imprimé : identités visuelles,
+     éditions, web design, supports print et communication numérique. Passionné par la recherche et l'expérimentation, 
+    j'aime croiser les pratiques pour créer des images uniques et percutantes.">
     
     <!-- Balises Open Graph pour les réseaux sociaux -->
     <meta property="og:title" content="Tom Ricouard - Designer Graphique">
-    <meta property="og:description" content="Tom Ricouard, designer graphique multidisciplinaire travaillant dans le design web et éditorial.">
+    <meta property="og:description" content="Designer graphique & Directeur artistique indépendant basé au Havre, 
+    spécialisé en design numérique et imprimé : identités visuelles,
+         éditions, web design, supports print et communication numérique. Passionné par la recherche et l'expérimentation, 
+        j'aime croiser les pratiques pour créer des images uniques et percutantes.">
     <meta property="og:image" content="https://your-website.com/og-image.png">
     <meta property="og:url" content="https://tomricouard.com">
     <meta property="og:type" content="website">
@@ -23,23 +24,30 @@
     <!-- Balise Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tom Ricouard - Designer Graphique">
-    <meta name="twitter:description" content="Tom Ricouard, designer graphique multidisciplinaire travaillant dans le design web et éditorial.">
+    <meta name="twitter:description" content="Designer graphique & Directeur artistique indépendant basé au Havre, 
+    spécialisé en design numérique et imprimé : identités visuelles,
+         éditions, web design, supports print et communication numérique. Passionné par la recherche et l'expérimentation, 
+        j'aime croiser les pratiques pour créer des images uniques et percutantes.">
     <meta name="twitter:image" content="https://your-website.com/og-image.png">
     
-    <!-- Balise favicon -->
+    <!-- Favicon -->
     <link rel="icon" href="/vite.svg" type="image/svg+xml" sizes="any">
     
     <!-- Mots-clés SEO -->
-    <meta name="keywords" content="Tom Ricouard, Ricouard, graphisme, design, design graphique, graphic design, Apix, Le Havre, graphisme Le Havre, design graphique Le Havre">
+    <meta name="keywords" content="Tom Ricouard, Ricouard, graphisme, design, design graphique, graphic design, Apix, Le Havre, graphisme Le Havre, design graphique Le Havre, projets, infos, contact">
     
-    <!-- Preload pour améliorer le chargement des ressources critiques -->
-    <link rel="preload" href="/src/main.jsx" as="script">
+    <!-- Base URL pour les ressources -->
+    <base href="/">
+    
+    <!-- Police d'écriture -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
+    
   </head>
   <body>
     <!-- Div racine pour React -->
     <div id="root"></div>
     
-    <!-- Chargement du script React en module -->
-    <script type="module" src="/src/main.jsx" defer></script>
+    <!-- Import du fichier JavaScript principal de l'application React -->
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

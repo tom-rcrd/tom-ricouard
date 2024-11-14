@@ -83,6 +83,7 @@ export default function Infos() {
 
       <Footer/>
 
+      <div class="divider"></div>
 
         </section>    
 

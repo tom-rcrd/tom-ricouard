@@ -1,13 +1,15 @@
 {
   "name": "tom-ricouard",
+  "homepage": "http://tomricouard.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "serve": "vite preview",
+    "dev": "vite"
   },
   "dependencies": {
     "@uidotdev/usehooks": "^2.4.1",
@@ -17,8 +19,11 @@
     "react-helmet": "^6.1.0",
     "react-load-script": "^0.0.6",
     "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.27.0",
-    "react-transition-group": "^4.4.5"
+    "react-router": "^6.28.0",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "^5.0.1",
+    "react-transition-group": "^4.4.5",
+    "serve": "^14.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
@@ -29,14 +34,24 @@
     "@types/react-dom": "^18.3.0",
     "@types/react-transition-group": "^4.4.11",
     "@vitejs/plugin-react": "^4.3.1",
-    "css-loader": "^7.1.2",
     "eslint": "^9.9.0",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "file-loader": "^6.2.0",
     "globals": "^15.9.0",
-    "style-loader": "^4.0.0",
     "vite": "^5.4.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
