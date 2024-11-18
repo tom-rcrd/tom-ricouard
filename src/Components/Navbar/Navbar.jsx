@@ -32,7 +32,7 @@ const Navbar = () => {
           </div>
         </ul>
         <li className="nav-item-contact">
-          <a href="mailto:contact@tomricouard.com">Contact ↗</a>
+          <a href="mailto:contact@tomricouard.com">Contact &#x2197;</a>
         </li>
       </nav>
 

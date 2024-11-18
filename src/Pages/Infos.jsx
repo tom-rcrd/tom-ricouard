@@ -45,7 +45,7 @@ export default function Infos() {
                 </p>  
               </div>  
               <p className="align-right">  
-                <a href="">CV ↗</a>  
+                <a href="">CV &#x2197;</a>  
               </p>     
               <p className="align-right">  
                 Si travailler ensemble vous intéresse, ou pour toute autre demande, contactez-moi <br />  
@@ -54,7 +54,7 @@ export default function Infos() {
               </p>  
               <p className="adress">  
                 <a href="https://instagram.com/letage.lehavre">  
-                  L'Etage ↗  
+                  L'Etage &#x2197; 
                   <br />  
                   30 Rue Bougainville  
                   <br />  
@@ -79,12 +79,12 @@ export default function Infos() {
             
                 <p><h1>Expériences</h1> 
                     <br></br>
-                    <li>2023 - Aujourd'hui<br></br><span className="infos-span">Co-fondateur et graphiste |    <a href="https://hofn-studio.com"><span>Höfn Studio ↗</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a></span></li><br></br>
-                    <li>2022 - Aujourd'hui<br></br><span className="infos-span">Président, graphiste | <a href="https://instagram.com/letage.lehavre"><span>Association L'Etage ↗</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a></span></li><br></br>
+                    <li>2023 - Aujourd'hui<br></br><span className="infos-span">Co-fondateur et graphiste |    <a href="https://hofn-studio.com"><span>Höfn Studio &#x2197;</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a></span></li><br></br>
+                    <li>2022 - Aujourd'hui<br></br><span className="infos-span">Président, graphiste | <a href="https://instagram.com/letage.lehavre"><span>Association L'Etage &#x2197;</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a></span></li><br></br>
                     <li>2020 - Aujourd'hui<br></br><span className="infos-span">Freelance | Lite, Studio Jaune, Geminii, JacksonMnr, Studio Carré, Kartoon, APIX, REC Rouen, L'Etage...</span></li> <br></br>
-                    <li>2019<br></br><span className="infos-span">Graphiste Stagiaire | <a href="https://intro.cool"><span>Agence Intro ↗</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a></span></li><br></br>
-                    <li>2018<br></br><span className="infos-span">Webdesigner |  <a href="https://2018.unesaisongraphique.fr"><span>Une Saison Graphique 2018 ↗</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a></span></li><br></br>
-                    <li>2016 - 2020<br></br><span className="infos-span">Directeur artistique, graphiste, photographe, vidéaste | <a href="https://instagram.com/bientomberecords"><span>Bien Tombé Records ↗</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a></span></li>
+                    <li>2019<br></br><span className="infos-span">Graphiste Stagiaire | <a href="https://intro.cool"><span>Agence Intro &#x2197;</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a></span></li><br></br>
+                    <li>2018<br></br><span className="infos-span">Webdesigner |  <a href="https://2018.unesaisongraphique.fr"><span>Une Saison Graphique 2018 &#x2197;</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a></span></li><br></br>
+                    <li>2016 - 2020<br></br><span className="infos-span">Directeur artistique, graphiste, photographe, vidéaste | <a href="https://instagram.com/bientomberecords"><span>Bien Tombé Records &#x2197;</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a></span></li>
            
 <hr></hr>
                     <h1>Parcours</h1> 
@@ -100,7 +100,7 @@ export default function Infos() {
 <h1>Expositions</h1> 
 <br></br>
 
-<li><date>Mars 2021 / Septembre 2021</date><br></br><span className="infos-span"><a href="https://www.tendanceouest.com/actualite-379887-le-havre-ils-explorent-le-potentiel-graphique-de-la-cite-chicago"><span>"Chicago ↗"</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a> en trio avec Jedd et Trystan Hamon | Galerie 1x2+, Le Havre <br></br>puis La Fabrique des quartiers du sud, Le Havre</span></li>
+<li><date>Mars 2021 / Septembre 2021</date><br></br><span className="infos-span"><a href="https://www.tendanceouest.com/actualite-379887-le-havre-ils-explorent-le-potentiel-graphique-de-la-cite-chicago"><span>"Chicago &#x2197;"</span><img src="https://pm1.narvii.com/7097/fe43d172ed2d29601d660633982474e2626e5306r1-640-635v2_hq.jpg" alt="img-cover" className="follow-img" /></a> en trio avec Jedd et Trystan Hamon | Galerie 1x2+, Le Havre <br></br>puis La Fabrique des quartiers du sud, Le Havre</span></li>
 <hr></hr>
 <h1>Workshops</h1> 
             <br></br>

@@ -15,14 +15,13 @@ a{
     transition: color 0.3s ease-out;
 }
 
-p:hover ,a:hover {
-    color: #191919;
+a:hover {
+  color: #454545;
+
 }
 
 .hero-infos p {
     margin-bottom: 15px ;
-    text-justify: distribute;
-  /*  text-indent: 15px; */
 }
 
 
@@ -105,7 +104,8 @@ p:hover ,a:hover {
 
   .services {
        font-size: 13px;
-    color: #303030;
+       color: #454545;
+
   }
 
   a:hover .follow-img {
@@ -154,7 +154,7 @@ overflow: scroll;
   overflow: auto;
   width: 100%;
   height: 1px;
-  background:  #303030;
+  color: #454545;
   margin: 18px 0;
 }
 

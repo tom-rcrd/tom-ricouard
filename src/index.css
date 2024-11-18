@@ -10,6 +10,7 @@ html {
     'Segoe UI Symbol';
   scroll-behavior: smooth;
   background-color: rgb(245, 245, 245);
+  color: #454545;
 }
 *,
 *::before,
